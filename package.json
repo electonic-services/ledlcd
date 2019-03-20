@@ -1,0 +1,59 @@
+{
+    "title": "Agency",
+    "name": "startbootstrap-agency",
+    "version": "5.0.5",
+    "description": "Agency is a one page HTML theme for Bootstrap.",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack --mode production"
+    },
+    "homepage": "https://startbootstrap.com/template-overviews/agency",
+    "bugs": {
+        "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
+        "email": "feedback@startbootstrap.com"
+    },
+    "license": "MIT",
+    "author": "Start Bootstrap",
+    "contributors": [
+        "David Miller (http://davidmiller.io/)"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.7.0",
+        "bootstrap": "4.2.1",
+        "expose-loader": "^0.7.5",
+        "file-loader": "^3.0.1",
+        "jquery": "3.3.1",
+        "jquery.easing": "^1.4.1",
+        "popper.js": "^1.14.7",
+        "url-loader": "^1.1.2"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.3",
+        "css-loader": "^2.1.1",
+        "extract-text-webpack-plugin": "^3.0.2",
+        "gulp": "4.0.0",
+        "gulp-autoprefixer": "6.0.0",
+        "gulp-clean-css": "4.0.0",
+        "gulp-header": "2.0.7",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "1.4.0",
+        "gulp-sass": "4.0.2",
+        "gulp-uglify": "3.0.1",
+        "mini-css-extract-plugin": "^0.5.0",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.3.0"
+    }
+}
