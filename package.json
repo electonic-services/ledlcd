@@ -1,8 +1,8 @@
 {
-    "title": "Agency",
-    "name": "startbootstrap-agency",
-    "version": "5.0.5",
-    "description": "Agency is a one page HTML theme for Bootstrap.",
+    "title": "Electronic services",
+    "name": "ledlcd",
+    "version": "1.0.0",
+    "description": "Personal website for electronic service by freelancer ashok sarvaiya",
     "keywords": [
         "css",
         "sass",
@@ -13,27 +13,24 @@
     ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "build": "webpack --mode production"
+        "build": "webpack --mode production && cp index.html dist/index.html",
+        "deploy": "gh-pages -d dist"
     },
-    "homepage": "https://startbootstrap.com/template-overviews/agency",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
+    "homepage": "https://electonic-services.github.io/ledlcd/",
+    "author": "Muhammad Amin",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Muhammad Amin"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-agency.git"
+        "url": "https://github.com/electonic-services/ledlcd.git"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.7.0",
         "bootstrap": "4.2.1",
         "expose-loader": "^0.7.5",
         "file-loader": "^3.0.1",
+        "gh-pages": "^2.0.1",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1",
         "popper.js": "^1.14.7",
